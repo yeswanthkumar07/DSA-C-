@@ -10,7 +10,7 @@ int main(){
         sum = sum + arr[i] ;
     }
 
-    cout << "sum = " << sum;
+    cout << "sum == " << sum;
     return 0;
 
 
