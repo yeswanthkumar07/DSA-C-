@@ -8,7 +8,7 @@ int main(){
     prefix[0] = arr[0];
     for (int i =1 ; i < n ; i++){
         
-        prefix[i] = arr[i - 1] + arr[i];
+        prefix[i] = prefix[i - 1] + arr[i];
 
     }
     for (int i = 0 ; i <n ; i++){
