@@ -9,7 +9,13 @@ int main(){
     for (int i = 1;i < n;i++){
         prefix[i] = prefix[i -1] + arr[i];
     }
-
-      
+    int L = 0;
+    int R = 2; 
+    int sum = 0;
+    if(L ==0){
+        sum =  prefix[R];
+    } else{
+        sum = prefix[R] - prefix[L -1];
     }
-}
+        cout << sum << endl ;
+       }
