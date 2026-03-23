@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    vector<int> v = {10, 30, 50, 60, 80, 9, 54, 63};
+    vector<int> v = {10, 30, 50, 60, 80, 9, 54, 63, 302};
 
     // Ascending order
     sort(v.begin(), v.end());
