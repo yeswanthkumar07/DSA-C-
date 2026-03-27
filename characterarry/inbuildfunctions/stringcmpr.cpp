@@ -7,7 +7,7 @@ int main(){
     cout << "enter strings :" << endl;
     cin >> str1 >> str2;
     if(strcmp(str1,str2)==0){
-        cout << "strings are equal" << endl;
+        cout << "strings are equall" << endl;
     }
 
     else {
