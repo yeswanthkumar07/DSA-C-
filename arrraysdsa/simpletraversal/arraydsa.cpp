@@ -10,6 +10,7 @@ int main(){
     
     
     cout << "sum is " << sum << endl ;
+    cout << "done" << endl;
     return 0 ;
 
 }         
