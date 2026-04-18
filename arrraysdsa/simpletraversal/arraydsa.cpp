@@ -10,7 +10,7 @@ int main(){
     
     
     cout << "sum is " << sum << endl ;
-    cout << "done" << endl;
+    cout << "doneeee" << endl;
     return 0 ;
 
 }         
